@@ -13,3 +13,9 @@ This repository contains a basic machine learning project that uses Streamlit to
 git clone https://github.com/Yuvraj0014/iris-classification.git
 cd iris-classification
 ```
+2. Setup a virtual Environment (Optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # For Linux/MacOS
+venv\Scripts\activate  # For Windows
+```
