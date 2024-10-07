@@ -9,7 +9,7 @@ This repository contains a basic machine learning project that uses Streamlit to
 4. Streamlit
 ## Installation
 1. Clone the repository
-'''cmd
+```cmd
 git clone https://github.com/Yuvraj0014/iris-classification.git
 cd iris-classification
-'''
+```
