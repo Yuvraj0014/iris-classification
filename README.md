@@ -14,8 +14,16 @@ git clone https://github.com/Yuvraj0014/iris-classification.git
 cd iris-classification
 ```
 2. Setup a virtual Environment (Optional but recommended)
-```bash
+```cmd
 python -m venv venv
 source venv/bin/activate  # For Linux/MacOS
 venv\Scripts\activate  # For Windows
+```
+3. Install required dependencies
+```cmd
+pip install -r requirements.txt
+```
+4. Run the Streamlit app
+```cmd
+https://iris-classification1.streamlit.app/
 ```
