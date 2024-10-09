@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ```
 4. Run the Streamlit app
 ```cmd
-https://iris-classification1.streamlit.app/
+streamlit run iris.py
 ```
