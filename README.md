@@ -28,7 +28,7 @@ pip install -r requirements.txt
 streamlit run iris.py
 ```
 ## Results
-Too lazy to adult today? Join the club! Ditch the to-do list and dive into our Streamlight app instead. It's right here, waiting for you!
+Too lazy to adult today? Join the club! Ditch the to-do list and dive into the Streamlight app instead. It's right here, waiting for you!
 ```cmd
 https://iris-classification1.streamlit.app/
 ```
