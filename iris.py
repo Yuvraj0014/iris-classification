@@ -16,18 +16,18 @@ df,target_names=load_data()
 model=RandomForestClassifier()
 model.fit(df.iloc[:,:-1],df['species'])
 
+#streamlit
 st.sidebar.title("Input Features")
 sepal_length=st.sidebar.slider("Sepal length",float(df['sepal length (cm)'].min()),float(df['sepal length (cm)'].max()))
 sepal_width=st.sidebar.slider("Sepal width",float(df['sepal width (cm)'].min()),float(df['sepal width (cm)'].max()))
 petal_length=st.sidebar.slider("Petal length",float(df['petal length (cm)'].min()),float(df['petal length (cm)'].max()))
 petal_width=st.sidebar.slider("Petal width",float(df['petal width (cm)'].min()),float(df['petal width (cm)'].max()))
 
-
 input_data=[[sepal_length,sepal_width,petal_length,petal_width]]
 
 #prediction
 prediction=model.predict(input_data)
 predicted_species= target_names[prediction[0]]
-
-st.write("Predictions")
-st.write(f"the Predicted species is :{predicted_species}")
+predict=st.button("Predict the species")
+if predict:
+    st.success(f'The predicted species is : {predicted_species}')
