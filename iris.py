@@ -31,4 +31,3 @@ predicted_species= target_names[prediction[0]]
 predict=st.button("Predict the species")
 if predict:
     st.success(f'The predicted species is : {predicted_species}')
-st.write('Yuvraj')
